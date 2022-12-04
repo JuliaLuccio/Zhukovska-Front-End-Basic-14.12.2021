@@ -1,0 +1,13 @@
+th {
+    background-color: lightgray;
+    color: firebrick;
+}
+
+td table tr:first-child {
+    font-size: 12px;
+}
+
+td table tr:nth-child(2) {
+    color: navy;
+    font-weight: 600;
+}

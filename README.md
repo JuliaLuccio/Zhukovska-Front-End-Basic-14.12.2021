@@ -5,7 +5,7 @@
 <details open>
 <summary>
 
-#### [Introduction. HTML](). Деталі завдання
+#### [Introduction. HTML](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson1/). Деталі завдання
 
 </summary>
 
