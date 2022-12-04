@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Повернутись до пошуку</a>
+        <a href="./login.html">Увійти в кабінет</a>
+    </nav>
+    <h3>Реєстрація</h3>
+    <form action="#">
+        <div>
+            <Label for="email">E-mail:</Label>
+            <input type="email" placeholder="Введіть свій E-mail" required id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="name">Ваше ім'я (нік):</label>
+            <input type="text" minlength="3" maxlength="30" placeholder="Ваше ім'я (нік)" required id="name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="pass1">Пароль:</label>
+            <input type="password" placeholder="Пароль" minlength="8" maxlength="20" required id="pass1" name="pass1">
+        </div>
+        <br>
+        <div>
+            <label for="pass2">Повторіть пароль:</label>
+            <input type="password" placeholder="Повторіть пароль" minlength="8" maxlength="20" required id="pass2" name="pass2">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" checked id="agree" name="agree" required>
+            <label for="agree">Даю згоду на обробку даних</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Зареєструватись">
+        </div>
+    </form>
+</body>
+</html>

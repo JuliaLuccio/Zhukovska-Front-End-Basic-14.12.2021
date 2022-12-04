@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    width: 98%;
+    font-family: Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    background-color: #e7e9eb;
+}
+
+div {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 13px;
+}
+
+img {
+    height: 280px;
+}
+
+h1 {
+    text-decoration: overline;
+    text-shadow: 3px 3px 3px #c0c0c0;
+}
+
+h3 {
+    background-color: #dcdcdc;
+}
+
+h4 {
+    text-decoration: underline #a9a9a9;
+    color: #a9a9a9;
+    font-size: 14px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+span.upper {
+    text-transform: uppercase;
+}
+
+span.oblique {
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+span.bold {
+    font-weight: 700;
+}
+
+nav a.noactive {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+div.fading {
+    color: rgba(128, 128, 128, .8);
+}

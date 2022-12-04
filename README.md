@@ -1,8 +1,52 @@
 # Front End Basic 14.12.2021
 
-## Lesson 2
+## Lesson 3
 
 <details open>
+<summary>
+
+#### [Practice with text](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson3/work_with_text/). Деталі завдання
+
+</summary>
+
+Використовуючи заголовки `h1-h6`, `span`, `a` (посилання) і абзаци `p`, розмітити текст, що додається.
+
+Створити зовнішній вигляд тексту за допомогою стилів.
+
+</details>
+
+<details open>
+<summary>
+
+#### [The Forms](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson3/forms/). Деталі завдання
+
+</summary>
+
+Уявімо, що ви працюєте над сайтом з продажу та пошуку автомобілів. Користувач може зайти на ваш сайт, зареєструватися та почати шукати собі машину. Для того, щоб такий сайт реалізувати, потрібно зробити щонайменше три форми: `Реєстрацію, Авторизацію, Пошук`.
+
+> Реєстрація: Email, Пароль, Підтвердження пароля
+
+> Авторизація (Вхід на сайт): Email, Пароль, Запам'ятати пароль
+
+> Пошук:
+* Тип кузова
+* Марка авто
+* Країна виробник
+* Ціна (від і до)
+* Рік випуску (від і до)
+* Стан (Бита, У кредиті, Не розмитнена і т.д. Одночасно може бути кілька пунктів обрано)
+* Тип палива
+* Тип коробки
+* Колір
+* Комфорт (Люк, Шкіряний салон тощо)
+
+Доповнювати все це ви можете на свій розсуд, а також підглядаючи на аналогічних сайтах. Можете проявити свою фантазію, адже по суті кожне таке поле можна реалізувати абсолютно по-різному.
+
+</details>
+
+## Lesson 2
+
+<details>
 <summary>
 
 #### [Absolute-and-relative-paths](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/absolute-and-relative-paths). Деталі завдання
@@ -23,7 +67,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary>
 
 #### [Colored Square](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/colored-square). Деталі завдання
@@ -36,7 +80,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary>
 
 #### [Periodic table](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/mendeleev-table/). Деталі завдання
