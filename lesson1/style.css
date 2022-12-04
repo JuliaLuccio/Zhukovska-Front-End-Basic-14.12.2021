@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #288be6;
+}
+
+li {
+    list-style-position: inside;
+    list-style-type: "★";
+}
+
+.fb {
+    background-image: url(img/Facebook-f_Logo-Blue-Logo.wine.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+.insta {
+    background-image: url(img/Instagram-Logo.wine.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
