@@ -1,11 +1,39 @@
 # Front End Basic 14.12.2021
 
-## Lesson 3
+## Lesson 4
 
 <details open>
 <summary>
 
-#### [Practice with text](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson3/work_with_text/). Деталі завдання
+#### [CSS. Float. Margin. Padding. Calc.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson4/float/) Деталі завдання
+
+</summary>
+
+Зверстати за малюнком, використовуючи `margin`, `padding`, `float` та `calc`.
+
+![squares](lesson4/float/floats.jpg)
+
+</details>
+
+<details open>
+<summary>
+
+#### [CSS. Float.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson4/pig/) Деталі завдання
+
+</summary>
+
+Зверстати за малюнком, використовуючи `margin`, `padding` та `float`.
+
+![pig](lesson4/pig/pig.png)
+
+</details>
+
+## Lesson 3
+
+<details>
+<summary>
+
+#### [Practice with text.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson3/work_with_text/) Деталі завдання
 
 </summary>
 
@@ -15,10 +43,10 @@
 
 </details>
 
-<details open>
+<details>
 <summary>
 
-#### [The Forms](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson3/forms/). Деталі завдання
+#### [The Forms.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson3/forms/) Деталі завдання
 
 </summary>
 
@@ -49,7 +77,7 @@
 <details>
 <summary>
 
-#### [Absolute-and-relative-paths](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/absolute-and-relative-paths). Деталі завдання
+#### [Absolute-and-relative-paths.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/absolute-and-relative-paths) Деталі завдання
 
 </summary>
 
@@ -70,7 +98,7 @@
 <details>
 <summary>
 
-#### [Colored Square](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/colored-square). Деталі завдання
+#### [Colored Square.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/colored-square) Деталі завдання
 
 </summary>
 
@@ -83,7 +111,7 @@
 <details>
 <summary>
 
-#### [Periodic table](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/mendeleev-table/). Деталі завдання
+#### [Periodic table.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson2/mendeleev-table/) Деталі завдання
 
 </summary>
 
@@ -102,7 +130,7 @@
 <details>
 <summary>
 
-#### [Introduction. HTML](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson1/). Деталі завдання
+#### [Introduction. HTML.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson1/) Деталі завдання
 
 </summary>
 

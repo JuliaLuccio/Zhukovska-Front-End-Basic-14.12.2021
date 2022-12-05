@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 980px;
+    height: 1800px;
+    margin: auto;
+}
+
+.container-ears {
+    width: 825px;
+    height: 180px;
+    margin-left: 75px;
+}
+
+.ear {
+    width: 150px;
+    height: 140px;
+    padding: 30px 60px 10px 50px;
+}
+
+.bg_violet {
+    background-color: #9574b4;
+}
+
+.bg_yellow {
+    background-color: #f5ba20;
+}
+
+.bg_black {
+    background-color: #000000;
+}
+
+.ear-inner {
+    width: 150px;
+    height: 140px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.container-head {
+    width: 980px;
+    height: 635px;
+}
+
+.eyes {
+    width: 755px;
+    height: 180px;
+    padding-top: 100px;
+    margin: 0 100px 40px 130px;
+}
+
+.eye {
+    width: 260px;
+    height: 125px;
+    padding-top: 55px;
+}
+
+.pupil {
+    width: 90px;
+    height: 125px;
+}
+
+.pupil-left {
+    margin-left: auto;
+}
+
+.nose {
+    width: 210px;
+    height: 85px;
+    background-color: #fdc580;
+    margin: 0 320px 45px 340px;
+    padding: 25px 50px 0 60px;
+}
+
+.penny {
+    width: 65px;
+    height: 85px;
+    background-color: #e73896;
+}
+
+.mouth {
+    width: 750px;
+    height: 90px;
+    margin-left: 130px;
+}
+
+.width110 {
+    width: 110px;
+}
+
+.width45 {
+    width: 45px;
+}
+
+.width55 {
+    width: 55px;
+}
+
+.width35 {
+    width: 29px;
+}
+
+.width82 {
+    width: 82px;
+}
+
+.tooth-red {
+    background-color: #df1f26;
+}
+
+.tooth-black {
+    width: 61px;
+    background-color: #000000;
+}
+
+.tooth-white {
+    width: 63px;
+    background-color: #ffffff;
+}
+
+.tooth {
+    height: 45px;
+}
+
+.container-neck {
+    width: 265px;
+    height: 50px;
+    margin: 0 340px 0 375px;
+    padding: 25px 0 0 4px;
+}
+
+.collar {
+    height: 30px;
+}
+
+.container-body {
+    width: 950px;
+    height: 765px;
+    margin: 0 15px;
+}
+
+.torso {
+    width: 545px;
+    height: 495px;
+    border-radius: 5%;
+    padding: 270px 0 0 175px;
+}
+
+.paw {
+    width: 115px;
+    height: 175px;
+    margin-top: 70px;
+}
+
+.paw-left {
+    border-radius: 35% 0 0 35%;
+}
+
+.paw-right {
+    border-radius: 0 35% 35% 0;
+}
+
+.fingers {
+    width: 40px;
+    height: 175px;
+}
+
+.fingers-left {
+    border-radius: 45% 0 0 45%;
+}
+
+.fingers-right {
+    border-radius: 0 45% 45% 0;
+}
+
+.navel {
+    width: 435px;
+    height: 435px;
+    background-color: #e73896;
+    border-radius: 50%;
+}
+
+.container-feet {
+    width: 590px;
+    height: 145px;
+    margin: 0 auto;
+}
+
+.feet {
+    width: 160px;
+    height: 145px;
+    border-radius: 0 0 25% 25%;
+}
+
+.toes {
+    width: 160px;
+    height: 40px;
+    border-radius: 0 0 30% 30%;
+    margin-top: 105px;
+}
