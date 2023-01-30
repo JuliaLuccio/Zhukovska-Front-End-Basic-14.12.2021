@@ -5,6 +5,23 @@
 <details open>
 <summary>
 
+#### [Work with text using classes.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson5/work-with-text/) Деталі завдання
+
+</summary>
+
+Прикріплений psd макет. Потрібно зверстати згідно до макету. Верстаємо, використовуючи класи.  
+
+Властивості з якими доведеться зіткнутися:
+
+`font-family`, `font-size`, `line-height`, `font-weight`, `margin`, `background`, `text-shadow`, `text-decoration`,`color`, `max-width (width)`
+
+![picture](lesson5/work-with-text/assets/img/template.jpg)
+
+</details>
+
+<details open>
+<summary>
+
 #### [Positioning CSS. Border.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson5/position-and-border/) Деталі завдання
 
 </summary>
@@ -17,7 +34,7 @@
 
 ## Lesson 4
 
-<details open>
+<details>
 <summary>
 
 #### [CSS. Float. Margin. Padding. Calc.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson4/float/) Деталі завдання
