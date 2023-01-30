@@ -1,5 +1,18 @@
 # Front End Basic 14.12.2021
 
+## Lesson 6
+
+<details open>
+<summary>
+
+#### [Pseudo elements before and after](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson6/) Деталі завдання
+
+</summary>
+
+Зробити меню, що випадає (без анімації) в 4 яруси і використовувати `::before` і `::after`
+
+</details>
+
 ## Lesson 5
 
 <details open>
@@ -19,7 +32,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary>
 
 #### [Positioning CSS. Border.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson5/position-and-border/) Деталі завдання

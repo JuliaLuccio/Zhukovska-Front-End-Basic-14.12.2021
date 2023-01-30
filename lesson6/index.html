@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pseudo elements before and after</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul class="main-menu">
+            <li class="menu-item">
+                <a class="menu-item-link" href="#">головна</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-item-link symbol-arrowdown" href="#">каталог товарів</a>
+                <ul class="menu-inner-lv1">
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link symbol-arrow" href="#">ноутбуки</a>
+                        <ul class="menu-inner-lv2">
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">ігрові</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">базові</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">для дизайнерів</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">для програмування</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">захищені</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">всі ноутбуки</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link symbol-arrow" href="#">аксесуари для ноутбуків</a>
+                                <ul class="menu-inner-lv3">
+                                    <li>
+                                        <a class="menu-item-link" href="#">сумки для ноутбуків</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">мишки</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">клавіатури</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">килимки для мишки</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">всі аксесуари</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link symbol-arrow" href="#">комп'ютери</a>
+                        <ul class="menu-inner-lv2">
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">системні блоки</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">моноблоки</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">сервери</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">всі товари</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link symbol-arrow" href="#">смартфони</a>
+                        <ul class="menu-inner-lv2">
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">ігрові</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">для селфі</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">флагман</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">пило/вологозахищенний</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">всі товари</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link symbol-arrow" href="#">телевізори</a>
+                        <ul class="menu-inner-lv2">
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">геймерський</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">для вітальні</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">для підприємств</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">для кухні</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">для спальні</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">кінотеатр</a>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link" href="#">всі товари</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link symbol-arrow" href="#">фото та відео техніка</a>
+                        <ul class="menu-inner-lv2">
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link symbol-arrow" href="#">фототехніка</a>
+                                <ul class="menu-inner-lv3">
+                                    <li>
+                                        <a class="menu-item-link" href="#">фотокамери миттєвого друку</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">аксесуари для миттєвого фото</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">фотоапарати</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">об'єктиви</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">всі товари</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-innerlv2-item">
+                                <a class="menu-item-link symbol-arrow" href="#">відеотехніка</a>
+                                <ul class="menu-inner-lv3">
+                                    <li>
+                                        <a class="menu-item-link" href="#">відеокамери</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">екшн-камери</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">аксесуари для екшн-камер</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item-link" href="#">всі товари</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a class="menu-item-link symbol-arrowdown" href="#">наші магазини</a>
+                <ul class="menu-inner-lv1">
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">Дніпро, вул. Нижньодніпровська (ТЦ Караван), 17</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">Дніпро, вул. Тітова (ТЦ Апполо), 36</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">Дніпро, пр-т Героїв (ТЦ KODAK), 3</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">Дніпро, пр-т Гагаріна (ТЦ Нагорка), 8а</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a class="menu-item-link symbol-delivery symbol-arrowdown" href="#">доставка</a>
+                <ul class="menu-inner-lv1">
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">новою поштою</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">укрпоштою</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">Justin</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">Meest</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a class="menu-item-link symbol-money symbol-arrowdown" href="#">оплата</a>
+                <ul class="menu-inner-lv1">
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">Gpay</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">ApplePay</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">PrivatPay</a>
+                    </li>
+                    <li class="menu-innerlv1-item">
+                        <a class="menu-item-link" href="#">безготівковий розрахунок</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
