@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    width: 483px;
+    height: 650px;
+    position: relative;
+}
+.p_absolute {
+    position: absolute;
+}
+.hat {
+    width: 395px;
+    height: 325px;
+    z-index: 2;
+}
+.ear {
+    width: 95px;
+    height: 80px;
+    background-color: black;
+    border-radius: 60% 50%;
+    left: 77%;
+    top: 25%;
+}
+.head {
+    width: 455px;
+    height: 340px;
+    top: 157px;
+    left: 28px;
+    border: 10px solid black;
+    border-radius: 66% 67% 59% 57%;
+    background-color: white;
+    z-index: 1;
+}
+.heart {
+    width: 38px;
+    height: 31px;
+    right: 85px;
+    top: 68px;
+}
+.eye {
+    width: 140px;
+    height: 105px;
+    background-color: black;
+    top: 145px;
+}
+.eye-left {
+    left: 42px;
+    border-radius: 70% 40%;
+}
+.eye-right {
+    right: 40px;
+    border-radius: 40% 70%;
+}
+.pupil {
+    width: 53px;
+    height: 53px;
+    background-color: #49c9f2;
+    border-radius: 50%;
+    top: 15px;
+}
+.pupil-left {
+    right: 15px;
+}
+.pupil-right {
+    left: 15px;
+}
+.sparkle {
+    width: 24px;
+    height: 24px;
+    background-color: #bde6f5;
+    border-radius: 50%;
+    top: 17px;
+}
+.sparkle-left {
+    left: 45px;
+}
+.sparkle-right {
+    right: 45px;
+}
+.nose {
+    width: 40px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    top: 209px;
+    left: 195px;
+}
+.mouth {
+    width: 61px;
+    height: 30px;
+    top: 230px;
+    left: 187px;
+}
+.paw {
+    background-color: black;
+    border-radius: 50%;
+}
+.paw-left {
+    width: 98px;
+    height: 80px;
+    left: 85px;
+    top: 266px;
+}
+.paw-right {
+    width: 102px;
+    height: 80px;
+    left: 255px;
+    top: 263px;
+}
+.body {
+    width: 315px;
+    height: 175px;
+    border: 10px solid black;
+    border-radius: 75% 145px 50px 65%;
+    background-color: white;
+    bottom: 20px;
+    left: 96px;
+}
+.foot {
+    background-color: black;
+}
+.foot-left {
+    width: 125px;
+    height: 125px;
+    left: -56px;
+    top: 65px;
+    border-radius: 70px 140px;
+}
+.foot-right {
+    width: 145px;
+    height: 111px;
+    left: 212px;
+    top: 70px;
+    border-radius: 75% 40% 63% 40%;
+}

@@ -1,5 +1,20 @@
 # Front End Basic 14.12.2021
 
+## Lesson 5
+
+<details open>
+<summary>
+
+#### [Positioning CSS. Border.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson5/position-and-border/) Деталі завдання
+
+</summary>
+
+Зробити верстку за малюнком, використовуючи `position` і `border`
+
+![panda](lesson5/position-and-border/assets/img/panda.png)
+
+</details>
+
 ## Lesson 4
 
 <details open>
@@ -15,7 +30,7 @@
 
 </details>
 
-<details open>
+<details>
 <summary>
 
 #### [CSS. Float.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson4/pig/) Деталі завдання
