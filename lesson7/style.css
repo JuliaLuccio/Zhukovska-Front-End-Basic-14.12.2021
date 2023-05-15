@@ -1,0 +1,255 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Palanquin', sans-serif;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.nav-link,
+.tel-link,
+.mail {
+	color: #1e1e1e;
+}
+
+.section-title {
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 8px;
+	margin-bottom: 36px;
+}
+
+.description {
+	font-size: 16px;
+	line-height: 2.4;
+	margin-bottom: 40px;
+}
+
+.send_msg {
+	color: #1e1e1e;
+	font-size: 22px;
+	background-color: #ffe600;
+	border: none;
+	padding: 13px 50px;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ---HEADER--- */
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	max-width: inherit;
+	margin: 0 auto;
+	padding: 40px 15px 0;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.nav-list {
+	padding: 10px 0;
+}
+
+.nav-item {
+	font-size: 21px;
+	text-transform: uppercase;
+}
+
+.nav-item:not(:last-child) {
+	margin-right: 110px;
+}
+
+/* ---SECTION ABOUT--- */
+
+.about {
+	padding-top: 200px;
+	margin-bottom: 100px;
+}
+
+.company-desc {
+	max-width: 670px;
+	padding-right: 15px;
+}
+
+.company-title {
+	font-size: 64px;
+	line-height: 1.27;
+	margin-bottom: 40px;
+}
+
+/* ---OUR WORKS--- */
+
+.our-works {
+	margin-bottom: 100px;
+}
+
+.icons-wrap {
+	font-size: 0;
+}
+
+.img-wrap {
+	display: inline-block;
+	width: 16.6%;
+	text-align: center;
+}
+
+.company-icon {
+	min-height: 115px;
+}
+
+/* ---OUR BLOG--- */
+
+.blog {
+	margin-bottom: 100px;
+}
+
+.video-wrap {
+	font-size: 0;
+}
+
+.blog-card {
+	display: inline-block;
+	width: 33.3%;
+}
+
+.blog-card:not(:last-child) {
+	padding-right: 30px;
+}
+
+.yt-video {
+	border: none;
+	width: 100%;
+	min-height: 255px;
+}
+
+.blog-title {
+	text-transform: uppercase;
+	font-size: 23px;
+	text-indent: 10px;
+	margin-bottom: 20px;
+}
+
+.blog-description {
+	margin-bottom: 20px;
+}
+
+.blog-time {
+	padding-left: 10px;
+  font-size: 16px;
+}
+
+/* ---CONTACTS--- */
+
+.contact-us {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.contact-block {
+	margin-bottom: 100px;
+}
+
+.contact-title {
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
+}
+
+.contact-input {
+	width: 100%;
+	min-height: 50px;
+	background-color: #f6f6f6;
+	border: none;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+.contact-input:focus {
+  outline: 2px solid #a9a4a4;
+}
+
+.message-field {
+	min-height: 120px;
+  padding-top: 10px;
+	margin-bottom: 50px;
+}
+
+.contact-input::placeholder {
+	color: #3a3a3a;
+	font-size: 16px;
+}
+
+.contacts-list {
+	margin-bottom: 100px;
+}
+
+.contact-info {
+	width: 33.3%;
+	text-align: center;
+}
+
+.contact-info:not(:last-child) {
+	padding-right: 40px;
+}
+
+.contacts-img {
+	min-height: 40px;
+}
+
+.social_contacts {
+	max-width: 300px;
+	margin: 0 auto 100px;
+	font-size: 0;
+}
+
+.social-link {
+	display: inline-block;
+	width: 33.3%;
+}
+
+.social-img {
+	max-height: 45px;
+}
+
+/* ---FOOTER--- */
+
+.footer {
+	background-color: #1e1e1e;
+	width: 100%;
+	padding: 70px 0;
+	color: #ffffff;
+}
+
+.copyright {
+	margin-left: 40px;
+}
+
+.nav-top {
+	color: #ffffff;
+	margin-top: 20px;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Palanquin:wght@400;700&display=swap">
+		<title>Creative Agency</title>
+	</head>
+	<body>
+		<div class="container clearfix">
+			<header class="header">
+				<a href="#" class="logo">
+					<img class="logo-img" src="./assets/images/logo.png" alt="logo">
+				</a>
+				<nav class="nav right">
+					<ul class="nav-list clearfix">
+						<li class="nav-item left">
+							<a href="#anchor_work" class="nav-link">our works</a>
+						</li>
+						<li class="nav-item left">
+							<a href="#anchor_about" class="nav-link">about</a>
+						</li>
+						<li class="nav-item left">
+							<a href="#anchor_blog" class="nav-link">blog</a>
+						</li>
+						<li class="nav-item left">
+							<a href="#anchor_contact" class="nav-link">contact</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<section class="about" id="anchor_about">
+					<div class="about-company clearfix">
+						<div class="company-desc left">
+							<h1 class="company-title">
+								Hello!!! <br>
+								We Are Creative <br>
+								Digital Agency.
+							</h1>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</p>
+							<a href="#anchor_contact" class="send_msg">SEND MESSAGE</a>
+						</div>
+						<video class="about-video right" width="700" controls poster="./assets/images/poster_movie.png">
+							<source src="./assets/video/movie.mp4">
+							<source src="./assets/video/movie.ogv">
+						</video>
+					</div>
+				</section>
+				<section class="our-works" id="anchor_work">
+					<h2 class="section-title">our works</h2>
+					<div class="icons-wrap">
+						<div class="img-wrap">
+							<img class="company-icon" src="./assets/images/gats_food.png" alt="logo company gats food">
+						</div>
+						<div class="img-wrap">
+							<img class="company-icon" src="./assets/images/dakota_adventure.png" alt="logo company dakota adventure">
+						</div>
+						<div class="img-wrap">
+							<img class="company-icon dakota" src="./assets/images/dakota.png" alt="logo company dakota">
+						</div>
+						<div class="img-wrap">
+							<img class="company-icon" src="./assets/images/vintage_style.png" alt="logo company vintage style">
+						</div>
+						<div class="img-wrap">
+							<img class="company-icon" src="./assets/images/gats.png" alt="logo company gats">
+						</div>
+						<div class="img-wrap">
+							<img class="company-icon" src="./assets/images/bakery.png" alt="logo company bakery">
+						</div>
+					</div>
+				</section>
+				<section class="blog" id="anchor_blog">
+					<h2 class="section-title">our blog</h2>
+					<p class="description">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.
+					</p>
+					<div class="video-wrap">
+						<div class="blog-card">
+							<iframe class="yt-video" src="https://www.youtube.com/embed/9m45nVsvvEY" title="YouTube video player"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+							<h4 class="blog-title">SUPER BLOG ARTICLE!</h4>
+							<p class="description blog-description">
+								Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.
+							</p>
+							<time class="blog-time" datetime="2020-05-20">20 May 2020</time>
+						</div>
+						<div class="blog-card">
+							<iframe class="yt-video" src="https://www.youtube.com/embed/YDPFMTNOxOg" title="YouTube video player"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+							<h4 class="blog-title">SUPER BLOG ARTICLE!</h4>
+							<p class="description blog-description">
+								Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.
+							</p>
+							<time class="blog-time" datetime="2020-05-20">20 May 2020</time>
+						</div>
+						<div class="blog-card">
+							<iframe class="yt-video" src="https://www.youtube.com/embed/fS4cH2fky5M" title="YouTube video player"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+							<h4 class="blog-title">SUPER BLOG ARTICLE!</h4>
+							<p class="description blog-description">
+								Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.
+							</p>
+							<time class="blog-time" datetime="2020-05-20">20 May 2020</time>
+						</div>
+					</div>
+				</section>
+				<section class="contact-us" id="anchor_contact">
+					<div class="contact-block">
+						<h2 class="section-title">contact us</h2>
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua.
+						</p>
+						<h3 class="contact-title">Send Us Message</h3>
+						<form action="#">
+							<input class="contact-input" type="text" placeholder="Name" required>
+							<input class="contact-input" type="email" placeholder="Email" required>
+							<textarea class="contact-input message-field" name="user_message" id="user_message" placeholder="Message" required></textarea>
+							<button class="send_msg" type="submit">SEND MESSAGE</button>
+						</form>
+					</div>
+					<div class="contacts">
+						<div class="contacts-list clearfix">
+							<div class="contact-info left">
+								<img class="contacts-img" src="./assets/images/address.png" alt="address">
+								<address>1211 Awesome Avenue, NY USD</address>
+							</div>
+							<div class="contact-info left">
+								<img class="contacts-img" src="./assets/images/phone.png" alt="phone">
+								<ul>
+									<li>
+										<a class="tel-link" href="tel:+0012345678">+00 123 - 456 -78</a>
+									</li>
+									<li>
+										<a class="tel-link" href="tel:+0012345678">+00 123 - 456 -78</a>
+									</li>
+								</ul>
+							</div>
+							<div class="contact-info left">
+								<img class="contacts-img" src="./assets/images/mail.png" alt="mail">
+								<ul>
+									<li>
+										<a class="mail" href="mailto:mint@mintmail.com">mint@mintmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="social_contacts">
+							<a class="social-link" href="#">
+								<img class="social-img" src="./assets/images/fb.png" alt="facebook">
+							</a>
+							<a class="social-link" href="#">
+								<img class="social-img" src="./assets/images/tw.png" alt="twitter">
+							</a>
+							<a class="social-link" href="#">
+								<img class="social-img" src="./assets/images/circle.png" alt="circle">
+							</a>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<a href="#">
+					<img class="logo-img" src="./assets/images/logo_white.png" alt="logo">
+				</a>
+				<span class="copyright">&#169; 2020 - Mint, All Right Reserved</span>
+				<a class="nav-top right" href="#anchor_about">BACK TO TOP</a>
+			</div>
+		</footer>
+	</body>
+</html>

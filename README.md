@@ -1,11 +1,27 @@
 # Front End Basic 14.12.2021
 
+## Lesson 7
+
+<details open>
+<summary>
+
+#### [Knowledge test. Video. Audio. Iframe.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson7/) Деталі завдання
+
+</summary>
+
+Зверстати сторінку згідно з макетом. У першій секції замість зображення вставити відео через `video` тег. У секції `Blog` замість 3-х зображень вставити відео з youtube через `iframe`.  
+Підключити будь-який шрифт на власний розсуд. Використовувати семантичні теги. `Header` зробити `fixed`. Без адаптива та без flex-моделі.
+
+![picture](lesson7/assets/images/maket.jpg)
+
+</details>
+
 ## Lesson 6
 
 <details open>
 <summary>
 
-#### [Pseudo elements before and after](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson6/) Деталі завдання
+#### [Pseudo elements ::before and ::after.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson6/) Деталі завдання
 
 </summary>
 
