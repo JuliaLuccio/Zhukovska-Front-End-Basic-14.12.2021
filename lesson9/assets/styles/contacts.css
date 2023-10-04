@@ -1,0 +1,86 @@
+.contacts {
+	background-image: var(--coral-raspberry-grdnt);
+	padding: 90px 0;
+}
+
+.contacts__text {
+	font-size: 13px;
+	margin: 45px 0 100px;
+}
+
+.contacts__form {
+	text-align: left;
+}
+
+.contacts__form-userdata {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 85px;
+}
+
+.contacts__form-userwrap {
+	flex-basis: 50%;
+	position: relative;
+}
+
+.contacts__form-input {
+	border: 1px solid var(--white);
+	min-height: 50px;
+	background-color: transparent;
+	padding: 19px 35px;
+	color: var(--white);
+	font-weight: 500;
+	width: 100%;
+	font-size: 15px;
+	transition: padding-left 0.8s;
+}
+
+.contacts__form-input:focus {
+	outline: 2px solid var(--white);
+	padding-left: 25px;
+}
+
+.contacts__form-input::placeholder {
+	font-size: 15px;
+	color: var(--white);
+	font-weight: 500;
+}
+
+input.contacts__form-input:focus + span.contacts__form-icon {
+	opacity: 0;
+}
+
+.contacts__form-input.error {
+	border: 1px solid var(--yellow-color);
+}
+
+.contacts__form-icon {
+	position: absolute;
+	left: 6px;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: opacity 0.8s;
+	font-size: 22px;
+}
+
+.contacts__form-error-mes {
+	position: absolute;
+	left: 0;
+	top: 65px;
+	color: var(--dark-color);
+	font-weight: 500;
+}
+
+.contacts__messagewrap {
+	margin-bottom: 35px;
+	position: relative;
+}
+
+.contacts__form-send-btn {
+	display: block;
+	margin-left: auto;
+}
+
+.contacts__form-send-btn:focus {
+	outline: 2px solid var(--white);
+}

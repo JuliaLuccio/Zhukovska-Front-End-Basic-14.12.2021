@@ -1,0 +1,32 @@
+.about {
+	padding: 95px 0;
+}
+
+.about__wrap {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.about__img-wrap {
+	flex: 0 1.5 50%;
+}
+
+.about__desc {
+	text-align: left;
+	flex: 1 1 50%;
+}
+
+.about__desc-title {
+	color: var(--dark-color);
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 45px;
+}
+
+.about__desc-text {
+	color: var(--light-dark);
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.4;
+}

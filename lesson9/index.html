@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <title>Zoom</title>
+    <script src="./assets/scripts/index.js" type="module"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container header__line">
+        <a class="header__logo-link" href="#">
+          <img class="header__logo-img" src="./assets/images/logo.png" alt="logo">
+        </a>
+        <nav class="header__nav toggleNavigation">
+          <div class="header__nav-list" id="headerNavList">
+            <a class="header__nav-link active" href="#home">home</a>
+            <a class="header__nav-link" href="#services">services</a>
+            <a class="header__nav-link" href="#portfolio">portfolio</a>
+            <a class="header__nav-link" href="#about">about</a>
+            <a class="header__nav-link" href="#contacts">contact</a>
+          </div>
+        </nav>
+        <div class="header__burger toggleBurger">
+          <div class="header__burger-bar1"></div>
+          <div class="header__burger-bar2"></div>
+          <div class="header__burger-bar3"></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="first-screen navSection" id="home">
+        <div class="first-screen__content">
+          <h1 class="first-screen__title">try design, you'll like it.</h1>
+          <a href="#portfolio" type="button" class="first-screen__btn custom-btn btn-w-250-bright-red btn-center">show me then !!!</a>
+        </div>
+      </section>
+      <section class="services navSection anchor-offset" id="services">
+        <div class="container">
+          <h2 class="sr-only">Our services</h2>
+          <div class="services__list">
+            <div class="services__item">
+              <img class="services__item-image" src="./assets/images/web_design.png" alt="web design">
+              <h4 class="services__item-title">web design</h4>
+              <p class="services__item-text">
+                Eum cu tantas legere complectitur. Tantas legere complectitur, hinc utamur ea eam ustolion mplectitur, hincutal.
+              </p>
+            </div>
+            <div class="services__item">
+              <img class="services__item-image" src="./assets/images/graphic_design.png" alt="graphic design">
+              <h4 class="services__item-title">graphic design</h4>
+              <p class="services__item-text">
+                Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.Tantas legere
+                complectitur ustolion mplectitur, hinc utal.
+              </p>
+            </div>
+            <div class="services__item">
+              <img class="services__item-image" src="./assets/images/programming.png" alt="programming">
+              <h4 class="services__item-title">programming</h4>
+              <p class="services__item-text">
+                Eum cu tantas legere complectitur, hinc utamur ea e cu tantas legere com , eam ustolion mplectitur, hinc utal.
+              </p>
+            </div>
+            <div class="services__item">
+              <img class="services__item-image" src="./assets/images/photography.png" alt="photography">
+              <h4 class="services__item-title">photography</h4>
+              <p class="services__item-text">
+                Eum cu tantas legere complectitur.Tantas legere complectitur, hinc utamur ea eam ustolion mplectitur, hinc utal.
+              </p>
+            </div>
+          </div>
+          <a href="#contacts" type="button" class="custom-btn btn-w-250-bright-red btn-center services__btn">need service?</a>
+        </div>
+      </section>
+      <section class="browser">
+        <div class="container-sm">
+          <h2 class="title">the design that likes to say yes.</h2>
+          <p class="browser__text">
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et
+            essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis.
+          </p>
+        </div>
+        <div class="container-md browser__img-wrap">
+          <img class="browser__img responsive" src="./assets/images/browser.png" alt="browser">
+        </div>
+      </section>
+      <section class="phone">
+        <div class="container phone__line">
+          <div class="phone__image-box">
+            <img class="phone__image responsive" src="./assets/images/phone.png" alt="phone">
+          </div>
+          <div class="phone__description">
+            <h2 class="phone__title">fully responsive</h2>
+            <p class="phone__text">
+              Eum cu tantas legere complectitur, hinc utamur ea eam. Lorem ipsum dolor sit amet, volumus temporibus
+              definitionem id ius, vel ut magna timeam appareat, movet timeam maiorum an ius. Sea libris dictas lucilius et.
+              Ne cibo urbanitas pri, qui ad populo accusamus. Quod congue ea ius, nisl aperiri sit ut.
+            </p>
+            <a href="#contacts" type="button" class="btn-w-250-bright-red custom-btn phone__btn">order me one</a>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio navSection anchor-offset" id="portfolio">
+        <div class="container-sm">
+          <h2 class="title">The Design That Likes To Say Yes.</h2>
+          <p class="portfolio__text">
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque
+            mnesarchum eu, diam erant convenire et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant
+            expetendis.
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque
+            mnesarchum eu, diam erant convenire et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant
+            expetendis.
+          </p>
+        </div>
+        <div class="container" id="portfolioBox">
+          <nav class="portfolio__nav categoryNav" id="portfolioNavFilter">
+            <button type="button" class="portfolio__nav-btn active custom-btn" data-filter="all">all</button>
+            <button type="button" class="portfolio__nav-btn custom-btn" data-filter="web">web</button>
+            <button type="button" class="portfolio__nav-btn custom-btn" data-filter="photography">photography</button>
+            <button type="button" class="portfolio__nav-btn custom-btn" data-filter="design">graphic design</button>
+          </nav>
+          <ul class="portfolio__list listElems">
+            <li class="portfolio__list-work" data-category="design">
+              <img class="portfolio__list-work-img responsive" src="./assets/images/instagram-3.jpg" alt="portfolio work">
+              <div class="portfolio__list-work-description">
+                <h4 class="portfolio__list-work-title">web design</h4>
+                <p class="portfolio__list-work-text">
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio__list-work" data-category="photography">
+              <img class="portfolio__list-work-img responsive" src="./assets/images/instagram-4.jpg" alt="portfolio work">
+              <div class="portfolio__list-work-description">
+                <h4 class="portfolio__list-work-title">photography</h4>
+                <p class="portfolio__list-work-text">
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio__list-work" data-category="web">
+              <img class="portfolio__list-work-img responsive" src="./assets/images/instagram-5.jpg" alt="portfolio work">
+              <div class="portfolio__list-work-description">
+                <h4 class="portfolio__list-work-title">programming</h4>
+                <p class="portfolio__list-work-text">
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio__list-work" data-category="design">
+              <img class="portfolio__list-work-img responsive" src="./assets/images/instagram-6.jpg" alt="portfolio work">
+              <div class="portfolio__list-work-description">
+                <h4 class="portfolio__list-work-title">web design</h4>
+                <p class="portfolio__list-work-text">
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio__list-work" data-category="photography">
+              <img class="portfolio__list-work-img responsive" src="./assets/images/instagram-7.jpg" alt="portfolio work">
+              <div class="portfolio__list-work-description">
+                <h4 class="portfolio__list-work-title">photography</h4>
+                <p class="portfolio__list-work-text">
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio__list-work" data-category="web">
+              <img class="portfolio__list-work-img responsive" src="./assets/images/instagram-8.jpg" alt="portfolio work">
+              <div class="portfolio__list-work-description">
+                <h4 class="portfolio__list-work-title">programming</h4>
+                <p class="portfolio__list-work-text">
+                  Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <a class="portfolio__link-down" href="#contacts">
+            <img class="portfolio__link-down-img" src="./assets/images/arrow_down.png" alt="arrow down">
+          </a>
+        </div>
+      </section>
+      <section class="stats">
+        <div class="container-md">
+          <h2 class="sr-only">Statistics of our company</h2>
+          <div class="stats__list">
+            <div class="stats__list-item">
+              <img class="stats__list-item-img" src="./assets/images/suitcase.png" alt="suitcase">
+              <span class="stats__list-item-stat-num">2093</span>
+              <span class="stats__list-item-stat-name">completed projects</span>
+            </div>
+            <div class="stats__list-item">
+              <img class="stats__list-item-img" src="./assets/images/mouse.png" alt="suitcase">
+              <span class="stats__list-item-stat-num">9 134 835</span>
+              <span class="stats__list-item-stat-name">click presed</span>
+            </div>
+            <div class="stats__list-item">
+              <img class="stats__list-item-img" src="./assets/images/mail-open.png" alt="suitcase">
+              <span class="stats__list-item-stat-num">7143</span>
+              <span class="stats__list-item-stat-name">mails sented & recived</span>
+            </div>
+            <div class="stats__list-item">
+              <img class="stats__list-item-img" src="./assets/images/thoughts.png" alt="suitcase">
+              <span class="stats__list-item-stat-num">427</span>
+              <span class="stats__list-item-stat-name">jokes tolds</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container-sm">
+          <h2 class="team__title title">Behold the power of the team.</h2>
+          <p class="team__text">Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et
+            vis. Et essent evertitur sea,
+            vis cu ubique referrentur, sed eu dicant expetendis.</p>
+        </div>
+        <div class="container">
+          <ul class="team__list" id='teamSlider'>
+            <li class="team__person slide fade">
+              <img class="team__person-photo responsive" src="./assets/images/team-3.png" alt="person-photo">
+              <div class="team__person-info">
+                <h4 class="team__person-info-name">John Doe</h4>
+                <span class="team__person-info-position">Graphic Designer</span>
+                <p class="team__person-info-about">Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu.</p>
+              </div>
+            </li>
+            <li class="team__person slide fade">
+              <img class="team__person-photo responsive" src="./assets/images/team-4.png" alt="person-photo">
+              <div class="team__person-info">
+                <h4 class="team__person-info-name">Jeremy Julius Perry</h4>
+                <span class="team__person-info-position">Graphic Designer</span>
+                <p class="team__person-info-about">Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu.</p>
+              </div>
+            </li>
+            <li class="team__person slide fade">
+              <img class="team__person-photo responsive" src="./assets/images/team-5.png" alt="person-photo">
+              <div class="team__person-info">
+                <h4 class="team__person-info-name">Anya Stoen</h4>
+                <span class="team__person-info-position">Graphic Designer</span>
+                <p class="team__person-info-about">Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu. Eum
+                  cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu.</p>
+              </div>
+            </li>
+            <li class="team__person slide fade">
+              <img class="team__person-photo responsive" src="./assets/images/team-6.png" alt="person-photo">
+              <div class="team__person-info">
+                <h4 class="team__person-info-name">John Doe</h4>
+                <span class="team__person-info-position">Graphic Designer</span>
+                <p class="team__person-info-about">Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu.</p>
+              </div>
+            </li>
+            <a class="team__list-btn direction-btn prevBtn">&#10094;</a>
+            <a class="team__list-btn direction-btn nextBtn">&#10095;</a>
+          </ul>
+        </div>
+      </section>
+      <section class="quote">
+        <div class="container-xs">
+          <div class="quote__icon-wrap">
+            <img src="./assets/images/quotes.png" alt="quotes">
+          </div>
+          <div class="quote__slideshow-wrap" id="quoteSlider">
+            <ul class="quote__slideshow">
+              <li class="quote__slide slide fade">
+                <q class="quote__slide-citation">We realize and actualize your vision</q>
+                <span class="quote__slide-author">John Doe CEO</span>
+              </li>
+              <li class="quote__slide slide fade">
+                <q class="quote__slide-citation">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime amet minus minima.</q>
+                <span class="quote__slide-author">John Doe CEO</span>
+              </li>
+            </ul>
+            <a class="quote__nav direction-btn prevBtn">&#10094;</a>
+            <a class="quote__nav direction-btn nextBtn">&#10095;</a>
+          </div>
+        </div>
+      </section>
+      <section class="about navSection anchor-offset" id="about">
+        <div class="container about__wrap">
+          <div class="about__img-wrap">
+            <img class="about__img responsive" src="./assets/images/about.jpg" alt="about company">
+          </div>
+          <div class="about__desc">
+            <h2 class="about__desc-title">About Some Site</h2>
+            <p class="about__desc-text">Lorem ipsum dolor sit amet, quod iusto senserit at his, animal phaedrum hendrerit no cum. Duis
+              mucius inciderint qui et, id epicuri corrumpit vim, vis eu erat sadipscing consectetuer. No nec justo nihil phaedrum, duis
+              utinam nam ne. Probo vidisse sea ut, pro tale stet assueverit an, ne oratio albucius adversarium mei. Sale quando mel et, usu
+              ad aeterno percipitur.<br>
+              <br>
+              Nullam vocibus iracundia cum ut, mea sale nullam an. Hinc primis est ei. Ad est decore quaeque propriae. Nam eu graece
+              adipiscing,
+              est eu autem mucius, duo ei eirmod mentitum. Sit soleat debitis delectus ea, mei at commodo prompta erroribus. Eu everti
+              mollis vis. Suas putent officiis duo ei, pro movet aliquip ex..
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="add">
+        <div class="container add__wrap">
+          <div class="add__img-box">
+            <img class="add__img responsive" src="./assets/images/mobile.png" alt="phone">
+          </div>
+          <div class="add__desc">
+            <h2 class="add__desc-title">modern design</h2>
+            <span class="add__desc-subtitle">Responsive design</span>
+            <p class="add__desc-text">Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant
+              convenire et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis.Eum cu tantas legere
+              complectitur, hinc utamur ea eam.<br>
+              Ynesarchum eu, diam erant convenire et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis.</p>
+          </div>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container-sm">
+          <h2 class="clients__title">What clients say</h2>
+          <p class="clients__text">
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et essent
+            evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis.
+          </p>
+        </div>
+        <div class="container">
+          <ul class="clients__feedbacks">
+            <li class="clients__feedbacks-item">
+              <div class="clients__feedbacks-item-box">
+                <h4 class="clients__feedbacks-item-name">Anya Stoen</h4>
+                <span class="clients__feedbacks-item-position">Graphic designer</span>
+                <p class="clients__feedbacks-item-review">
+                  “Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et
+                  essent
+                  evertitur sea.
+                </p>
+              </div>
+            </li>
+            <li class="clients__feedbacks-item">
+              <div class="clients__feedbacks-item-box">
+                <h4 class="clients__feedbacks-item-name">Jeremy Julius Perry</h4>
+                <span class="clients__feedbacks-item-position">Graphic designer</span>
+                <p class="clients__feedbacks-item-review">
+                  “Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et
+                  essent evertitur sea.
+                  Et essent evertitur sea.”
+                </p>
+              </div>
+            </li>
+            <li class="clients__feedbacks-item">
+              <div class="clients__feedbacks-item-box">
+                <h4 class="clients__feedbacks-item-name">Anthony Rose</h4>
+                <span class="clients__feedbacks-item-position">Graphic designer</span>
+                <p class="clients__feedbacks-item-review">
+                  “Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et
+                  essent evertitur sea.”
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts navSection anchor-offset" id="contacts">
+        <div class="container-sm">
+          <h2 class="title">contact us</h2>
+          <p class="contacts__text">
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et
+            essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis.
+          </p>
+          <form class="contacts__form" action="#" name="contactForm">
+            <div class="contacts__form-userdata">
+              <div class="contacts__form-userwrap">
+                <input class="contacts__form-input" type="text" placeholder="Your name here" name="username" id="username">
+                <span class="contacts__form-icon bi bi-person-fill"></span>
+                <span class="contacts__form-error-mes" data-for="username"></span>
+              </div>
+              <div class="contacts__form-userwrap">
+                <input class="contacts__form-input" type="email" placeholder="Your mail here" name="usermail" id="usermail">
+                <span class="contacts__form-icon bi bi-envelope-fill"></span>
+                <span class="contacts__form-error-mes" data-for="usermail"></span>
+              </div>
+            </div>
+            <div class="contacts__messagewrap">
+              <input class="contacts__form-input" type="text" placeholder="Your message here" name="usermessage" id="usermessage">
+              <span class="contacts__form-icon bi bi-journal-text"></span>
+              <span class="contacts__form-error-mes" data-for="usermessage"></span>
+            </div>
+            <button class="contacts__form-send-btn custom-btn btn-w-170-teal" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="container footer__top-wrap">
+            <div class="footer__top-subcribe">
+              <p class="footer__top-subcribe-text">Want to hear more story, subscribe for our newsletter</p>
+              <button class="custom-btn btn-w-170-teal footer__top-subcribe-btn">Subbscribe</button>
+            </div>
+            <div class="footer__top-contacts">
+              <address class="footer__top-contacts-item">Awesome Address 432</address>
+              <a class="footer__top-contacts-item" href="mailto:ourmail@sometype.com">ourmail@sometype.com</a>
+              <a class="footer__top-contacts-item" href="tel:+321032123343492">+321(0)32 123 343 492</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span class="footer__bottom-copyright">© 2017 - <span class="footer__bottom-copyright-brand">Zoom</span> All Right Reserved</span>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

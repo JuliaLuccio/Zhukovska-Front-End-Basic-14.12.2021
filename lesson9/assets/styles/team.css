@@ -1,0 +1,72 @@
+.team {
+	padding: 75px 0 55px;
+}
+
+.team__title {
+	color: var(--dark-color);
+}
+
+.team__text {
+	font-size: 13px;
+	color: var(--light-dark);
+	margin: 40px auto 100px;
+}
+
+.team__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	row-gap: 20px;
+	position: relative;
+}
+
+.team__person {
+	flex-basis: 25%;
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.team__person-info {
+	background: var(--subtle-cyan-grdnt);
+	padding: 30px 25px 20px;
+	flex-grow: 1;
+}
+
+.team__person-info-name {
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--dark-color);
+}
+
+.team__person-info-position {
+	font-size: 13px;
+	font-weight: 400;
+	display: inline-block;
+	margin: 10px 0 25px;
+}
+
+.team__person-info-about {
+	font-size: 15px;
+	color: var(--dark-color);
+	font-weight: 400;
+}
+
+.team__list-btn {
+	background-color: var(--light-gray);
+	color: var(--green-blue);
+	position: absolute;
+	top: 35%;
+}
+
+.team__list-btn:hover {
+	background-color: var(--white);
+}
+
+.prevBtn {
+	left: 0;
+}
+
+.nextBtn {
+	right: 0;
+}

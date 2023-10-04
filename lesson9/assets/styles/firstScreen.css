@@ -1,0 +1,25 @@
+.first-screen {
+	display: flex;
+	background-image: var(--subtle-cyan-grdnt);
+	min-height: 670px;
+	margin-top: 100px;
+}
+
+.first-screen__content {
+	margin: auto;
+	padding: 15px;
+}
+
+.first-screen__title {
+	font-size: 60px;
+	text-transform: capitalize;
+	margin-bottom: 52px;
+}
+
+.first-screen__btn {
+	font-weight: 500;
+}
+
+.first-screen__btn:focus {
+	outline: 2px solid var(--white);
+}

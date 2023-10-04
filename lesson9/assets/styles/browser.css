@@ -1,0 +1,13 @@
+.browser {
+	background-image: var(--coral-raspberry-grdnt);
+	padding-top: 90px;
+}
+
+.browser__img-wrap {
+	font-size: 0;
+}
+
+.browser__text {
+	font-size: 13px;
+	margin: 35px 0 145px;
+}

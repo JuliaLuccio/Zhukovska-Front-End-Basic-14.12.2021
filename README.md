@@ -1,5 +1,32 @@
 # Front End Basic 14.12.2021
 
+## Lesson 9
+
+<details open>
+<summary>
+
+#### [Flex.](https://julialuccio.github.io/Zhukovska-Front-End-Basic-14.12.2021/lesson9/) Деталі завдання
+
+</summary>
+
+Зверстати макет через `flex` модель.
+![picture](lesson9/assets/images/maket.jpg)
+
+</details>
+
+## Lesson 8
+
+<details open>
+<summary>
+
+#### [Git. Github.](https://github.com/JuliaLuccio/Zhukovska-Front-End-Basic-14.12.2021) Деталі завдання
+
+</summary>
+
+Створити репозиторій на `Github` та завантажити туди попередні роботи.
+
+</details>
+
 ## Lesson 7
 
 <details open>

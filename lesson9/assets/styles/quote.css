@@ -1,0 +1,41 @@
+.quote {
+	padding: 90px 0;
+	background-image: var(--coral-raspberry-grdnt);
+}
+
+.quote__icon-wrap {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: var(--dark-green);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto 10px;
+}
+
+.quote__slideshow {
+	min-height: 90px;
+	/* padding-bottom: 10px; */
+}
+
+.quote__slide {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.quote__slide-citation {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.quote__slide-author {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.quote__nav {
+	background-color: var(--white);
+	color: var(--raspberry-color);
+}

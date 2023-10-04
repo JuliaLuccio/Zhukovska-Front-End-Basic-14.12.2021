@@ -1,0 +1,41 @@
+.add {
+	background-image: var(--subtle-cyan-grdnt);
+	padding-top: 80px;
+}
+
+.add__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 110px;
+}
+
+.add__img-box {
+	position: relative;
+	top: 40px;
+}
+
+.add__desc {
+	flex-basis: 675px;
+	text-align: left;
+}
+
+.add__desc-title {
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.add__desc-subtitle {
+	color: var(--dark-slate-gray);
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.add__desc-text {
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 25px;
+	line-height: 1.4;
+}
